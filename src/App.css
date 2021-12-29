@@ -1,0 +1,110 @@
+*{
+    font-family: 'Gideon Roman', cursive;
+    font-size: 20px;
+}
+
+.navdiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/721/574/551/fire-flame-dark-background-wallpaper-preview.jpg'); */
+    box-shadow: 0px 5px 15px;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/721/574/551/fire-flame-dark-background-wallpaper-preview.jpg'); */
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),
+    url(banner.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.bodytextflex{
+    display: flex;
+    justify-content: center;
+}
+
+.kk{
+
+    margin-top: 70%;
+    
+}
+.bodytext{
+    
+    text-align: center;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    color: white;
+    animation-name: textani;
+    animation-duration: 2s;
+    /* background-color: red; */
+    background-color:#f44336;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+/* @keyframes textani {
+    from {background-color: rgba(143, 78, 18, 0.137);}
+    to {background-color: rgb(32, 49, 5);}
+  } */
+
+.title{
+    
+    padding: 20px;
+    float: left;
+    display: block;
+    font-family: 'Gluten', cursive;
+    color: white;
+    font-size: 40px;
+    color: #f44336;;
+
+}
+.titlebts{
+    padding: 10px;
+    float: right;
+    display: block;
+    margin: 20px 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    background-color: rgb(187, 32, 32);
+    color: white;
+    cursor: pointer;
+}
+.titlebts:hover{
+    background-color: rgb(102, 5, 5);
+}
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 77px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(102, 5, 5);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+  }
+  
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
